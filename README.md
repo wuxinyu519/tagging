@@ -1,6 +1,6 @@
 # tagging
 
-It covers the full pipeline: data creation, SFT, DPO/GRPO, and evaluation.
+It covers the full pipeline: SFT, DPO/GRPO, and evaluation.
 
 Directories and what they do:
 - `sft/`: SFT training and testing
@@ -17,4 +17,4 @@ Directories and what they do:
   - `grop_4types/grpo_trainer.sh`: training script
 - `eval/`: inference and evaluation (RAG few-shot, constrained decoding, metrics)
 
-How to use: prepare the data, run SFT training, optionally run DPO/GRPO, then evaluate with the scripts in `eval/`.
+How to use: run SFT training, optionally run DPO/GRPO, then evaluate with the scripts in `eval/`.
