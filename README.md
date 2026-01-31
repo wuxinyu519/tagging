@@ -3,7 +3,6 @@
 It covers the full pipeline: data creation, SFT, DPO/GRPO, and evaluation.
 
 Directories and what they do:
-- `data_creator/`: datasets and processed jsonl files for SFT/DPO/testing
 - `sft/`: SFT training and testing
   - `sft/data_loader.py`: data loading and preprocessing
   - `sft/train.py`: SFT training entry
