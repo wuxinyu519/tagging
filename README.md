@@ -18,3 +18,19 @@ Directories and what they do:
 - `eval/`: inference and evaluation (RAG few-shot, constrained decoding, metrics)
 
 How to use: run SFT training, optionally run DPO/GRPO, then evaluate with the scripts in `eval/`.
+
+## Saved models
+
+Please place trained / saved model files under the following directories so the evaluation and downstream scripts can find them easily:
+
+- `sft/` — put SFT checkpoints under `sft/`.
+- `dpo/` — put DPO checkpoints under `dpo/`.
+- `grop_4types/` — put reward model / GRPO checkpoints under `grop_4types/`.
+
+You can link to these folders directly in the repo browser:
+ - DPO models: [Google Drive](https://drive.google.com/drive/folders/1DQwAkEEZ_s3aGfqkfHa8DaNOqipHiXo7?usp=sharing)
+ - SFT models: [Google Drive](https://drive.google.com/drive/folders/1xXAG3fZlxLBLYZeQGOP8eIqpusQmsmf-?usp=sharing)
+ - GRPO model: [Google Drive](https://drive.google.com/drive/folders/1eThjokTamJD08VJAXcnFs97DNqY4IIxB?usp=sharing)
+ - GRPO reward model: [Google Drive](https://drive.google.com/drive/folders/11aqPhZl2ltxSsOvbYQ3CuH88xgRkwxHK?usp=sharing)
+
+
